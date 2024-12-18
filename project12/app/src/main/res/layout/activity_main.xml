@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="25dp" >
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bd_view"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_error"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Plan your Trip!"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        />
+    <TextView
+        android:id="@+id/txtcountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="70dp"
+        android:text="Country:"
+        android:textSize="20dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        />
+    <Spinner
+        android:id="@+id/spincountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtcountry"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/txtcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spincountry"
+        android:layout_marginTop="30dp"
+        android:text="City:"
+        android:textSize="20dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        />
+
+    <Spinner
+        android:id="@+id/spincity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtcity"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/txtdep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spincity"
+        android:layout_marginTop="30dp"
+        android:text="Departure Date:"
+        android:textSize="20dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>
