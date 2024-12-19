@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -8,11 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
 public class  MainActivity extends AppCompatActivity {
 
-
-
-
+    Button buttonitin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +24,14 @@ public class  MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    }
-public void test(){
-    setContentView(R.layout.test);
 
-}
+        buttonitin = findViewById(R.id.button);
+
+        buttonitin.setOnClickListener((v -> {
+            startActivity(new Intent(MainActivity.this, ItineraryDetailsView.class));
+        }));
+
+    }
+
 
 }

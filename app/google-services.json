@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "815603514923",
+    "firebase_url": "https://plan-go-ecfeb-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "plan-go-ecfeb",
+    "storage_bucket": "plan-go-ecfeb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815603514923:android:b983a8c2b5afc151db346e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-E5UfdGg_tGnIQnxs0n_yFph6HRAVefM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
