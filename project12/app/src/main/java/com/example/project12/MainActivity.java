@@ -1,10 +1,13 @@
 package com.example.project12;
 
+import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -14,6 +17,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
      private Spinner countrySp,citySp;
      private ArrayAdapter<CharSequence> countryAdapter;
     private ArrayAdapter<CharSequence> cityAdapter;
+    private EditText depEd1;
+   final Calendar depCal= Calendar.getInstance();
+    final Calendar retCal= Calendar.getInstance();
+    private DatePickerDialog dpd;
+    private EditText retEd1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +44,44 @@ public class MainActivity extends AppCompatActivity {
         countryAdapter=ArrayAdapter.createFromResource(this,R.array.spincountry,R.layout.spinner_layout);
         countryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         countrySp.setAdapter(countryAdapter);
+        depEd1=findViewById(R.id.depcal);
+        retEd1=findViewById(R.id.retcal);
+        depEd1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        depCal.set(Calendar.YEAR,year);
+                        depCal.set(Calendar.MONTH,month);
+                        depCal.set(Calendar.DAY_OF_MONTH,dayOfMonth);
+
+                        String myFormat="dd-MM-yyyy";
+                        SimpleDateFormat dateFormat=new SimpleDateFormat(myFormat, Locale.US);
+                        depEd1.setText(dateFormat.format(depCal.getTime()));
+                    }
+                }, depCal.get(Calendar.YEAR), depCal.get(Calendar.MONTH), depCal.get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
+        retEd1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        retCal.set(Calendar.YEAR,year);
+                        retCal.set(Calendar.MONTH,month);
+                        retCal.set(Calendar.DAY_OF_MONTH,dayOfMonth);
+
+                        String myFormat="dd-MM-yyyy";
+                        SimpleDateFormat dateFormat=new SimpleDateFormat(myFormat, Locale.US);
+                        retEd1.setText(dateFormat.format(retCal.getTime()));
+                    }
+                }, retCal.get(Calendar.YEAR), retCal.get(Calendar.MONTH), retCal.get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
+
+
         countrySp.setOnItemSelectedListener(new OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -86,5 +136,6 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
     }
 }

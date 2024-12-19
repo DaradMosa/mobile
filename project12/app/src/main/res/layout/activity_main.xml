@@ -31,7 +31,7 @@
         android:layout_below="@id/title"
         android:layout_marginTop="70dp"
         android:text="Country:"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:padding="6dp"
         android:textColor="@color/black"
         />
@@ -50,7 +50,7 @@
         android:layout_below="@id/spincountry"
         android:layout_marginTop="30dp"
         android:text="City:"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:padding="6dp"
         android:textColor="@color/black"
         />
@@ -70,8 +70,77 @@
         android:layout_below="@id/spincity"
         android:layout_marginTop="30dp"
         android:text="Departure Date:"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:padding="6dp"
         android:textColor="@color/black"
         />
+     <EditText
+         android:id="@+id/depcal"
+         android:hint="Enter Dep Date"
+         android:layout_width="match_parent"
+         android:drawableRight="@drawable/baseline_calendar_month_24"
+         android:clickable="false"
+         android:focusable="false"
+         android:cursorVisible="false"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/txtdep"
+         android:layout_marginTop="10dp"
+         />
+
+    <TextView
+        android:id="@+id/txtret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/depcal"
+        android:layout_marginTop="30dp"
+        android:padding="6dp"
+        android:text="Return Date:"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/retcal"
+        android:hint="Enter Ret Date"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:clickable="false"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtret"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/bud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/retcal"
+        android:layout_marginTop="30dp"
+        android:text="Set Budget:"
+        android:textSize="30dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/budtxt"
+        android:hint="Enter your Budget"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/baseline_euro_symbol_24"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bud"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_below="@+id/budtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_error"
+        android:textSize="30dp"
+        android:text="View Itinerary"
+
+        />
+
 </RelativeLayout>
