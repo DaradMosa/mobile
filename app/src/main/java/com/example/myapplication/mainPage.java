@@ -60,6 +60,11 @@ public class mainPage extends AppCompatActivity {
                 startActivity(new Intent(this, profilePage.class));
                 return true;
             }
+            else if (item.getItemId() == R.id.nav_map) {
+                startActivity(new Intent(this, MapUI.class));
+                return true;
+            }
+
             return false;
         });
 
