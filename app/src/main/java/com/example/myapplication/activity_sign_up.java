@@ -130,6 +130,7 @@ public class activity_sign_up extends AppCompatActivity {
                                         if (dbTask.isSuccessful()) {
                                             Toast.makeText(activity_sign_up.this, "Registration Successful", Toast.LENGTH_SHORT).show();
                                             userViewModel.setUsername(username);
+                                            userViewModel.setEmail(email);
                                             startActivity(new Intent(activity_sign_up.this, mainPage.class));
                                             finish();
                                         } else {

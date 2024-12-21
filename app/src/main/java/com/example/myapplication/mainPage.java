@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,7 +33,7 @@ public class mainPage extends AppCompatActivity {
 
     private TextView txtUserName;
     private UserViewModel userViewModel;
-
+    private Button btnPlanYourTrip;
     BottomNavigationView bottomNavigationView;
 
     @Override
@@ -48,14 +50,14 @@ public class mainPage extends AppCompatActivity {
 
 
         txtUserName = findViewById(R.id.txtUserName);
-
+        btnPlanYourTrip = findViewById(R.id.btnPlanYourTrip);
 
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.nav_home);
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             if (item.getItemId() == R.id.nav_home) {
-                startActivity(new Intent(this, mainPage.class));
+                //startActivity(new Intent(this, mainPage.class));
                 return true;
             } else if (item.getItemId() == R.id.nav_profile) {
                 startActivity(new Intent(this, profilePage.class));
@@ -69,6 +71,14 @@ public class mainPage extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+
+        btnPlanYourTrip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(mainPage.this, TripPlannerGUI.class));
+            }
         });
     }
 
