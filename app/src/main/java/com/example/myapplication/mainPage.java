@@ -3,16 +3,20 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -27,6 +31,8 @@ public class mainPage extends AppCompatActivity {
 
     private TextView txtUserName;
     private UserViewModel userViewModel;
+
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +49,20 @@ public class mainPage extends AppCompatActivity {
 
         txtUserName = findViewById(R.id.txtUserName);
 
+
+
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setSelectedItemId(R.id.nav_home);
+        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
+            if (item.getItemId() == R.id.nav_home) {
+                startActivity(new Intent(this, mainPage.class));
+                return true;
+            } else if (item.getItemId() == R.id.nav_profile) {
+                startActivity(new Intent(this, profilePage.class));
+                return true;
+            }
+            return false;
+        });
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.frontpage), (v, insets) -> {
@@ -62,8 +82,8 @@ public class mainPage extends AppCompatActivity {
             startActivity(new Intent(mainPage.this, signIn.class));
             finish();
         }
-
-        txtUserName.setText(userViewModel.getUsername());
+//        userViewModel.setUsername(fetchUsername());
+//        txtUserName.setText(userViewModel.getUsername());
     }
 
     private  String fetchUsername() {
