@@ -2,62 +2,369 @@
     <string name="app_name">Plan-Go</string>
 
 
-
     <string-array name="spincountry">
-        <item>Select the Country</item><item>France</item><item>Italy</item><item>Turkey</item><item>Germany</item><item>Russia</item><item>Jordan</item><item>Palestine</item><item>Iraq</item>
-        <item>Lebanon</item><item>Usa</item><item>Canada</item><item>Mexico</item>
+        <item>Select the Country</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Turkey</item>
+        <item>Germany</item>
+        <item>Russia</item>
+        <item>Jordan</item>
+        <item>Palestine</item>
+        <item>Iraq</item>
+        <item>Lebanon</item>
+        <item>Usa</item>
+        <item>Canada</item>
+        <item>Mexico</item>
     </string-array>
     <string-array name="arr_spinCity">
         <item>Select the City</item>
     </string-array>
-    <string-array name="arr_france_cities">       <item>Paris</item>
-        <item>Lyon</item><item>Marseille</item><item>Toulouse</item><item>Nice</item><item>Nantes</item><item>Montpellier</item><item>Bordeaux</item><item>Strasbourg</item><item>Rennes</item><item>Lille</item><item>Reims</item><item>Le Havre</item><item>Saint-Étienn</item></string-array>
-    <string-array name="arr_italy_cities">      <item>Rome</item>
-        <item>Milan</item><item>Venice</item><item>Florence</item><item>Naples</item><item>Turin</item><item>Bologna</item><item>Genoa</item><item>Palermo</item>
-        <item>Verona</item><item>Padua</item><item>Ravenna</item><item>Trieste</item><item>Messina</item><item>Catania</item><item>Vicenza</item><item>Modena</item><item>Perugia</item><item>La Spezia</item><item>Livorno</item><item>Reggio Calabria</item><item>Syracuse</item></string-array>
-    <string-array name="arr_turkey_cities">    <item>Istanbul</item>
-        <item>Ankara</item><item>Izmir</item><item>Bursa</item><item>Antalya</item><item>Adana</item><item>Gaziantep</item><item>Konya</item><item>Kayseri</item><item>Mersin</item><item>Eskisehir</item><item>Manisa</item><item>Malatya</item>
-        <item>Denizli</item><item>Sanliurfa</item><item>Samsun</item><item>Trabzon</item><item>Balikesir</item><item>Hatay</item><item>Çorum</item><item>Tekirdag</item><item>Aydin</item>
-        <item>Çanakkale</item><item>Niğde</item><item>Ordu</item><item>Uşak</item><item>Rize</item><item>Tokat</item><item>Karabük</item><item>Sakarya</item><item>Kocaeli</item><item>Kastamonu</item>
-        <item>Yalova</item><item>Batman</item><item>Diyarbakir</item><item>Elazig</item><item>Van</item><item>Şırnak</item></string-array>
-    <string-array name="arr_germany_cities">       <item>Berlin</item>
-        <item>Munich</item><item>Hamburg</item><item>Cologne</item><item>Frankfurt</item><item>Stuttgart</item>
-        <item>Düsseldorf</item><item>Dortmund</item><item>Essen</item><item>Bremen</item><item>Dresden</item><item>Leipzig</item><item>Hannover</item><item>Nuremberg</item><item>Hanover</item><item>Freiburg</item><item>Augsburg</item><item>Mannheim</item><item>Rostock</item>
-        <item>Karlsruhe</item><item>Wiesbaden</item><item>Göttingen</item><item>Regensburg</item><item>Erfurt</item><item>Würzburg</item><item>Siegen</item>
-        <item>Magdeburg</item><item>Osnabrück</item><item>Oldenburg</item><item>Kiel</item>
-        <item>Lübeck</item><item>Potsdam</item><item>Remscheid</item></string-array>
-    <string-array name="arr_russia_cities">       <item>Moscow</item>
-        <item>Saint Petersburg</item><item>Novosibirsk</item><item>Yekaterinburg</item><item>Nizhny Novgorod</item><item>Samara</item><item>Omsk</item><item>Kazan</item><item>Chelyabinsk</item><item>Rostov-on-Don</item><item>Ufa</item>
-        <item>Saratov</item><item>Volgograd</item><item>Vladimir</item><item>Perm</item><item>Tyumen</item><item>Voronezh</item><item>Krasnoyarsk</item>
-        <item>Irkutsk</item><item>Ulyanovsk</item><item>Krasnodar</item><item>Sochi</item><item>Barnaul</item><item>Kaliningrad</item><item>Izhevsk</item><item>Arkhangelsk</item><item>Murmansk</item><item>Vladivostok</item><item>Yakutsk</item><item>Tomsk</item><item>Kaluga</item><item>Tver</item><item>Surgut</item></string-array>
-    <string-array name="arr_jordan_cities">       <item>Amman</item>
-        <item>Irbid</item><item>Zarqa</item><item>Aqaba</item><item>Mafraq</item><item>Madaba</item><item>Karak</item><item>Salt</item><item>Tafila</item><item>Jerash</item><item>Maan</item>
-        <item>Ruseifa</item><item>Ajloun</item><item>Al-Karak</item><item>Qatrana</item><item>Al-Salt</item><item>Al-Mafraq</item><item>Al-Ramtha</item></string-array>
-    <string-array name="arr_palestine_cities">       <item>Jerusalem</item>
-        <item>Gaza</item><item>Hebron</item><item>Nablus</item><item>Ramallah</item><item>Jenin</item><item>Tulkaram</item><item>Qalqilya</item><item>Bethlehem</item><item>Salfit</item><item>Jericho</item><item>Rafah</item><item>Beit Lahia</item><item>Deir al-Balah</item><item>Gaza City</item>
-        <item>Al-Bireh</item><item>Abu Dis</item><item>Shufat</item><item>Askar</item><item>Khan Yunis</item><item>Jabalia</item><item>Beersheba</item><item>Qabatiya</item><item>Yatta</item></string-array>
-    <string-array name="arr_iraq_cities">   <item>Baghdad</item>
-        <item>Basra</item><item>Erbil</item><item>Najaf</item><item>Kirkuk</item><item>Sulaimaniya</item><item>Babylon</item><item>Fallujah</item><item>Ramadi</item>
-        <item>Karbala</item><item>Diwaniya</item><item>Baghdadi</item><item>Al-Qadisiyyah</item><item>Samawah</item>
-        <item>Missan</item><item>Nasiriyah</item><item>Kut</item><item>Amarah</item><item>Muqdadiya</item><item>Hilla</item><item>Rawa</item><item>Baiji</item><item>Duhok</item><item>Hawija</item></string-array>
-    <string-array name="arr_lebanon_cities">     <item>Beirut</item>
-        <item>Tripoli</item><item>Sidon</item><item>Tyre</item><item>Jounieh</item>
-        <item>Byblos</item><item>Zahle</item><item>Baabda</item><item>Chouf</item><item>Metn</item>
-        <item>Batroun</item><item>Batroun</item><item>Aley</item><item>Jbeil</item><item>Keserwan</item><item>Bekaa</item><item>Rachaya</item><item>Baakleen</item><item>Khaldeh</item><item>Zgharta</item></string-array>
-    <string-array name="arr_usa_cities">    <item>New York</item>
-        <item>Los Angeles</item><item>Chicago</item><item>Houston</item><item>Phoenix</item><item>Philadelphia</item><item>San Antonio</item><item>San Diego</item><item>Dallas</item>
-        <item>San Jose</item><item>Austin</item><item>Jacksonville</item><item>Fort Worth</item><item>Columbus</item><item>Charlotte</item><item>San Francisco</item><item>Indianapolis</item><item>Seattle</item>
-        <item>Denver</item><item>Washington D.C.</item><item>Boston</item><item>El Paso</item><item>Nashville</item><item>Detroit</item><item>Oklahoma City</item><item>Portland</item><item>Las Vegas</item><item>Memphis</item><item>Louisville</item><item>Baltimore</item><item>Milwaukee</item>
-        <item>Albuquerque</item><item>Tucson</item><item>Fresno</item><item>Sacramento</item><item>Mesa</item><item>Kansas City</item><item>Long Beach</item><item>Omaha</item><item>Virginia Beach</item></string-array>
-    <string-array name="arr_canada_cities">    <item>Toronto</item>
-        <item>Vancouver</item><item>Montreal</item><item>Calgary</item><item>Ottawa</item><item>Edmonton</item><item>Winnipeg</item>
-        <item>Quebec City</item><item>Hamilton</item><item>Kitchener</item><item>London</item><item>Victoria</item><item>Halifax</item><item>Oshawa</item><item>St. Johns</item><item>Saskatoon</item>
-        <item>Regina</item><item>Burnaby</item><item>Sudbury</item><item>Thunder Bay</item><item>Richmond</item><item>Guelph</item>
-        <item>Saint John</item><item>Kelowna</item><item>New Westminster</item><item>Chilliwack</item><item>Abbotsford</item><item>Kamloops</item><item>Fredericton</item></string-array>
-    <string-array name="arr_mexico_cities">   <item>Mexico City</item>
-        <item>Guadalajara</item><item>Monterrey</item><item>Puebla</item><item>Cancún</item><item>Juárez</item>
-        <item>León</item><item>Zapopan</item><item>Chihuahua</item><item>Durango</item><item>Merida</item>
-        <item>San Luis Potosí</item><item>Aguascalientes</item><item>Toluca</item><item>Hermosillo</item><item>Morelia</item><item>Veracruz</item>
-        <item>Culiacán</item><item>La Paz</item><item>Saltillo</item><item>Fresnillo</item><item>Ensenada</item><item>Ciudad Obregón</item><item>Mexicali</item>
-        <item>Colima</item><item>Tepic</item><item>Campeche</item><item>Tapachula</item></string-array>
+    <string-array name="arr_france_cities">
+        <item>Paris</item>
+        <item>Lyon</item>
+        <item>Marseille</item>
+        <item>Toulouse</item>
+        <item>Nice</item>
+        <item>Nantes</item>
+        <item>Montpellier</item>
+        <item>Bordeaux</item>
+        <item>Strasbourg</item>
+        <item>Rennes</item>
+        <item>Lille</item>
+        <item>Reims</item>
+        <item>Le Havre</item>
+        <item>Saint-Étienn</item>
+    </string-array>
+    <string-array name="arr_italy_cities">
+        <item>Rome</item>
+        <item>Milan</item>
+        <item>Venice</item>
+        <item>Florence</item>
+        <item>Naples</item>
+        <item>Turin</item>
+        <item>Bologna</item>
+        <item>Genoa</item>
+        <item>Palermo</item>
+        <item>Verona</item>
+        <item>Padua</item>
+        <item>Ravenna</item>
+        <item>Trieste</item>
+        <item>Messina</item>
+        <item>Catania</item>
+        <item>Vicenza</item>
+        <item>Modena</item>
+        <item>Perugia</item>
+        <item>La Spezia</item>
+        <item>Livorno</item>
+        <item>Reggio Calabria</item>
+        <item>Syracuse</item>
+    </string-array>
+    <string-array name="arr_turkey_cities">
+        <item>Istanbul</item>
+        <item>Ankara</item>
+        <item>Izmir</item>
+        <item>Bursa</item>
+        <item>Antalya</item>
+        <item>Adana</item>
+        <item>Gaziantep</item>
+        <item>Konya</item>
+        <item>Kayseri</item>
+        <item>Mersin</item>
+        <item>Eskisehir</item>
+        <item>Manisa</item>
+        <item>Malatya</item>
+        <item>Denizli</item>
+        <item>Sanliurfa</item>
+        <item>Samsun</item>
+        <item>Trabzon</item>
+        <item>Balikesir</item>
+        <item>Hatay</item>
+        <item>Çorum</item>
+        <item>Tekirdag</item>
+        <item>Aydin</item>
+        <item>Çanakkale</item>
+        <item>Niğde</item>
+        <item>Ordu</item>
+        <item>Uşak</item>
+        <item>Rize</item>
+        <item>Tokat</item>
+        <item>Karabük</item>
+        <item>Sakarya</item>
+        <item>Kocaeli</item>
+        <item>Kastamonu</item>
+        <item>Yalova</item>
+        <item>Batman</item>
+        <item>Diyarbakir</item>
+        <item>Elazig</item>
+        <item>Van</item>
+        <item>Şırnak</item>
+    </string-array>
+    <string-array name="arr_germany_cities">
+        <item>Berlin</item>
+        <item>Munich</item>
+        <item>Hamburg</item>
+        <item>Cologne</item>
+        <item>Frankfurt</item>
+        <item>Stuttgart</item>
+        <item>Düsseldorf</item>
+        <item>Dortmund</item>
+        <item>Essen</item>
+        <item>Bremen</item>
+        <item>Dresden</item>
+        <item>Leipzig</item>
+        <item>Hannover</item>
+        <item>Nuremberg</item>
+        <item>Hanover</item>
+        <item>Freiburg</item>
+        <item>Augsburg</item>
+        <item>Mannheim</item>
+        <item>Rostock</item>
+        <item>Karlsruhe</item>
+        <item>Wiesbaden</item>
+        <item>Göttingen</item>
+        <item>Regensburg</item>
+        <item>Erfurt</item>
+        <item>Würzburg</item>
+        <item>Siegen</item>
+        <item>Magdeburg</item>
+        <item>Osnabrück</item>
+        <item>Oldenburg</item>
+        <item>Kiel</item>
+        <item>Lübeck</item>
+        <item>Potsdam</item>
+        <item>Remscheid</item>
+    </string-array>
+    <string-array name="arr_russia_cities">
+        <item>Moscow</item>
+        <item>Saint Petersburg</item>
+        <item>Novosibirsk</item>
+        <item>Yekaterinburg</item>
+        <item>Nizhny Novgorod</item>
+        <item>Samara</item>
+        <item>Omsk</item>
+        <item>Kazan</item>
+        <item>Chelyabinsk</item>
+        <item>Rostov-on-Don</item>
+        <item>Ufa</item>
+        <item>Saratov</item>
+        <item>Volgograd</item>
+        <item>Vladimir</item>
+        <item>Perm</item>
+        <item>Tyumen</item>
+        <item>Voronezh</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Ulyanovsk</item>
+        <item>Krasnodar</item>
+        <item>Sochi</item>
+        <item>Barnaul</item>
+        <item>Kaliningrad</item>
+        <item>Izhevsk</item>
+        <item>Arkhangelsk</item>
+        <item>Murmansk</item>
+        <item>Vladivostok</item>
+        <item>Yakutsk</item>
+        <item>Tomsk</item>
+        <item>Kaluga</item>
+        <item>Tver</item>
+        <item>Surgut</item>
+    </string-array>
+    <string-array name="arr_jordan_cities">
+        <item>Amman</item>
+        <item>Irbid</item>
+        <item>Zarqa</item>
+        <item>Aqaba</item>
+        <item>Mafraq</item>
+        <item>Madaba</item>
+        <item>Karak</item>
+        <item>Salt</item>
+        <item>Tafila</item>
+        <item>Jerash</item>
+        <item>Maan</item>
+        <item>Ruseifa</item>
+        <item>Ajloun</item>
+        <item>Al-Karak</item>
+        <item>Qatrana</item>
+        <item>Al-Salt</item>
+        <item>Al-Mafraq</item>
+        <item>Al-Ramtha</item>
+    </string-array>
+    <string-array name="arr_palestine_cities">
+        <item>Jerusalem</item>
+        <item>Gaza</item>
+        <item>Hebron</item>
+        <item>Nablus</item>
+        <item>Ramallah</item>
+        <item>Jenin</item>
+        <item>Tulkaram</item>
+        <item>Qalqilya</item>
+        <item>Bethlehem</item>
+        <item>Salfit</item>
+        <item>Jericho</item>
+        <item>Rafah</item>
+        <item>Beit Lahia</item>
+        <item>Deir al-Balah</item>
+        <item>Gaza City</item>
+        <item>Al-Bireh</item>
+        <item>Abu Dis</item>
+        <item>Shufat</item>
+        <item>Askar</item>
+        <item>Khan Yunis</item>
+        <item>Jabalia</item>
+        <item>Beersheba</item>
+        <item>Qabatiya</item>
+        <item>Yatta</item>
+    </string-array>
+    <string-array name="arr_iraq_cities">
+        <item>Baghdad</item>
+        <item>Basra</item>
+        <item>Erbil</item>
+        <item>Najaf</item>
+        <item>Kirkuk</item>
+        <item>Sulaimaniya</item>
+        <item>Babylon</item>
+        <item>Fallujah</item>
+        <item>Ramadi</item>
+        <item>Karbala</item>
+        <item>Diwaniya</item>
+        <item>Baghdadi</item>
+        <item>Al-Qadisiyyah</item>
+        <item>Samawah</item>
+        <item>Missan</item>
+        <item>Nasiriyah</item>
+        <item>Kut</item>
+        <item>Amarah</item>
+        <item>Muqdadiya</item>
+        <item>Hilla</item>
+        <item>Rawa</item>
+        <item>Baiji</item>
+        <item>Duhok</item>
+        <item>Hawija</item>
+    </string-array>
+    <string-array name="arr_lebanon_cities">
+        <item>Beirut</item>
+        <item>Tripoli</item>
+        <item>Sidon</item>
+        <item>Tyre</item>
+        <item>Jounieh</item>
+        <item>Byblos</item>
+        <item>Zahle</item>
+        <item>Baabda</item>
+        <item>Chouf</item>
+        <item>Metn</item>
+        <item>Batroun</item>
+        <item>Batroun</item>
+        <item>Aley</item>
+        <item>Jbeil</item>
+        <item>Keserwan</item>
+        <item>Bekaa</item>
+        <item>Rachaya</item>
+        <item>Baakleen</item>
+        <item>Khaldeh</item>
+        <item>Zgharta</item>
+    </string-array>
+    <string-array name="arr_usa_cities">
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Houston</item>
+        <item>Phoenix</item>
+        <item>Philadelphia</item>
+        <item>San Antonio</item>
+        <item>San Diego</item>
+        <item>Dallas</item>
+        <item>San Jose</item>
+        <item>Austin</item>
+        <item>Jacksonville</item>
+        <item>Fort Worth</item>
+        <item>Columbus</item>
+        <item>Charlotte</item>
+        <item>San Francisco</item>
+        <item>Indianapolis</item>
+        <item>Seattle</item>
+        <item>Denver</item>
+        <item>Washington D.C.</item>
+        <item>Boston</item>
+        <item>El Paso</item>
+        <item>Nashville</item>
+        <item>Detroit</item>
+        <item>Oklahoma City</item>
+        <item>Portland</item>
+        <item>Las Vegas</item>
+        <item>Memphis</item>
+        <item>Louisville</item>
+        <item>Baltimore</item>
+        <item>Milwaukee</item>
+        <item>Albuquerque</item>
+        <item>Tucson</item>
+        <item>Fresno</item>
+        <item>Sacramento</item>
+        <item>Mesa</item>
+        <item>Kansas City</item>
+        <item>Long Beach</item>
+        <item>Omaha</item>
+        <item>Virginia Beach</item>
+    </string-array>
+    <string-array name="arr_canada_cities">
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Montreal</item>
+        <item>Calgary</item>
+        <item>Ottawa</item>
+        <item>Edmonton</item>
+        <item>Winnipeg</item>
+        <item>Quebec City</item>
+        <item>Hamilton</item>
+        <item>Kitchener</item>
+        <item>London</item>
+        <item>Victoria</item>
+        <item>Halifax</item>
+        <item>Oshawa</item>
+        <item>St. Johns</item>
+        <item>Saskatoon</item>
+        <item>Regina</item>
+        <item>Burnaby</item>
+        <item>Sudbury</item>
+        <item>Thunder Bay</item>
+        <item>Richmond</item>
+        <item>Guelph</item>
+        <item>Saint John</item>
+        <item>Kelowna</item>
+        <item>New Westminster</item>
+        <item>Chilliwack</item>
+        <item>Abbotsford</item>
+        <item>Kamloops</item>
+        <item>Fredericton</item>
+    </string-array>
+    <string-array name="arr_mexico_cities">
+        <item>Mexico City</item>
+        <item>Guadalajara</item>
+        <item>Monterrey</item>
+        <item>Puebla</item>
+        <item>Cancún</item>
+        <item>Juárez</item>
+        <item>León</item>
+        <item>Zapopan</item>
+        <item>Chihuahua</item>
+        <item>Durango</item>
+        <item>Merida</item>
+        <item>San Luis Potosí</item>
+        <item>Aguascalientes</item>
+        <item>Toluca</item>
+        <item>Hermosillo</item>
+        <item>Morelia</item>
+        <item>Veracruz</item>
+        <item>Culiacán</item>
+        <item>La Paz</item>
+        <item>Saltillo</item>
+        <item>Fresnillo</item>
+        <item>Ensenada</item>
+        <item>Ciudad Obregón</item>
+        <item>Mexicali</item>
+        <item>Colima</item>
+        <item>Tepic</item>
+        <item>Campeche</item>
+        <item>Tapachula</item>
+    </string-array>
 </resources>
