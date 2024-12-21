@@ -2,6 +2,8 @@ package com.example.myapplication;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,13 +21,14 @@ import java.util.Map;
 
 public class ItineraryDetailsView extends AppCompatActivity {
 
+    Button backBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_itinerary_details_view);
 
-
+        backBtn = findViewById(R.id.backBtn);
         RecyclerView rvDays = findViewById(R.id.rvDays);
         DaysPaAdapter adapter = new DaysPaAdapter(new ArrayList<>());
         rvDays.setAdapter(adapter);
@@ -78,6 +81,13 @@ public class ItineraryDetailsView extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
         });
     }
 }

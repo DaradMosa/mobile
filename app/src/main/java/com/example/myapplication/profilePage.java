@@ -52,7 +52,7 @@ public class profilePage extends AppCompatActivity {
                 startActivity(new Intent(this, mainPage.class));
                 return true;
             } else if (item.getItemId() == R.id.nav_profile) {
-                startActivity(new Intent(this, profilePage.class));
+                //startActivity(new Intent(this, profilePage.class));
                 return true;
             }
             return false;
