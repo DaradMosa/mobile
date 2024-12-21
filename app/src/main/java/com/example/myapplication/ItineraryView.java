@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -24,7 +25,7 @@ import java.util.ArrayList;
 public class ItineraryView extends AppCompatActivity {
 
     ListView listView;
-    Button backBtn;
+    ImageButton backBtn;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -34,8 +35,8 @@ public class ItineraryView extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_itinerary_view);
 
-        listView = findViewById(R.id.ListView);
-        backBtn = findViewById(R.id.backBtn);
+        listView        = findViewById(R.id.ListView);
+        backBtn         = findViewById(R.id.backBtn);
 
         ArrayList<pa> arrayList = new ArrayList<>();
         arrayList.add(new pa(R.drawable.trevifountain,"Package1","1500$"));

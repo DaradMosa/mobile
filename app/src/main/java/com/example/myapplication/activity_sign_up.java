@@ -1,11 +1,13 @@
 package com.example.myapplication;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +29,7 @@ public class activity_sign_up extends AppCompatActivity {
 
     private EditText emailEditText, passwordEditText,usernameEditText;
     private Button signupButton;
+    private ImageButton backBtn;
     private TextView loginRedirectText;
     private FirebaseAuth mAuth;
     private FirebaseFirestore firestore;
@@ -48,7 +51,7 @@ public class activity_sign_up extends AppCompatActivity {
         passwordEditText        = findViewById(R.id.password);
         signupButton            = findViewById(R.id.signupbtn);
         loginRedirectText       = findViewById(R.id.textView12);
-
+        backBtn                 = findViewById(R.id.backBtn);
         // handle signUp button
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +73,13 @@ public class activity_sign_up extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
         });
     }
 
@@ -129,8 +139,12 @@ public class activity_sign_up extends AppCompatActivity {
                                     .addOnCompleteListener(dbTask -> {
                                         if (dbTask.isSuccessful()) {
                                             Toast.makeText(activity_sign_up.this, "Registration Successful", Toast.LENGTH_SHORT).show();
-                                            userViewModel.setUsername(username);
-                                            userViewModel.setEmail(email);
+                                            SharedPreferences sharedPreferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+                                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                                            editor.putString("username", userViewModel.getUsername());
+                                            editor.putString("email", userViewModel.getEmail());
+                                            editor.apply();
+
                                             startActivity(new Intent(activity_sign_up.this, mainPage.class));
                                             finish();
                                         } else {

@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -35,7 +36,9 @@ public class TripPlannerGUI extends AppCompatActivity {
         final Calendar retCal= Calendar.getInstance();
         private DatePickerDialog dpd;
         private EditText retEd1;
-        private Button backBtn,submitBtn;
+        private Button submitBtn;
+        private ImageButton backBtn;
+
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -44,13 +47,13 @@ public class TripPlannerGUI extends AppCompatActivity {
             setContentView(R.layout.activity_trip_planner_gui);
             countrySp=findViewById(R.id.spincountry);
 
-            countryAdapter=ArrayAdapter.createFromResource(this,R.array.spincountry,R.layout.spinner_layout);
+            countryAdapter          = ArrayAdapter.createFromResource(this,R.array.spincountry,R.layout.spinner_layout);
             countryAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             countrySp.setAdapter(countryAdapter);
-            depEd1=findViewById(R.id.depcal);
-            retEd1=findViewById(R.id.retcal);
-            backBtn = findViewById(R.id.backBtn);
-            submitBtn = findViewById(R.id.submit);
+            depEd1                  = findViewById(R.id.depcal);
+            retEd1                  = findViewById(R.id.retcal);
+            backBtn                 = findViewById(R.id.backBtn);
+            submitBtn               = findViewById(R.id.submit);
 
 
             depEd1.setOnClickListener(new View.OnClickListener() {
