@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_canada_cities">
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Montreal</item>
+        <item>Calgary</item>
+        <item>Ottawa</item>
+        <item>Edmonton</item>
+        <item>Winnipeg</item>
+        <item>Quebec City</item>
+        <item>Hamilton</item>
+        <item>Kitchener</item>
+        <item>London</item>
+        <item>Victoria</item>
+        <item>Halifax</item>
+        <item>Oshawa</item>
+        <item>St. Johns</item>
+        <item>Saskatoon</item>
+        <item>Regina</item>
+        <item>Burnaby</item>
+        <item>Sudbury</item>
+        <item>Thunder Bay</item>
+        <item>Richmond</item>
+        <item>Guelph</item>
+        <item>Saint John</item>
+        <item>Kelowna</item>
+        <item>New Westminster</item>
+        <item>Chilliwack</item>
+        <item>Abbotsford</item>
+        <item>Kamloops</item>
+        <item>Fredericton</item>
+    </string-array>
+    <string-array name="arr_france_cities">
+        <item>Paris</item>
+        <item>Lyon</item>
+        <item>Marseille</item>
+        <item>Toulouse</item>
+        <item>Nice</item>
+        <item>Nantes</item>
+        <item>Montpellier</item>
+        <item>Bordeaux</item>
+        <item>Strasbourg</item>
+        <item>Rennes</item>
+        <item>Lille</item>
+        <item>Reims</item>
+        <item>Le Havre</item>
+        <item>Saint-Étienn</item>
+    </string-array>
+    <string-array name="arr_germany_cities">
+        <item>Berlin</item>
+        <item>Munich</item>
+        <item>Hamburg</item>
+        <item>Cologne</item>
+        <item>Frankfurt</item>
+        <item>Stuttgart</item>
+        <item>Düsseldorf</item>
+        <item>Dortmund</item>
+        <item>Essen</item>
+        <item>Bremen</item>
+        <item>Dresden</item>
+        <item>Leipzig</item>
+        <item>Hannover</item>
+        <item>Nuremberg</item>
+        <item>Hanover</item>
+        <item>Freiburg</item>
+        <item>Augsburg</item>
+        <item>Mannheim</item>
+        <item>Rostock</item>
+        <item>Karlsruhe</item>
+        <item>Wiesbaden</item>
+        <item>Göttingen</item>
+        <item>Regensburg</item>
+        <item>Erfurt</item>
+        <item>Würzburg</item>
+        <item>Siegen</item>
+        <item>Magdeburg</item>
+        <item>Osnabrück</item>
+        <item>Oldenburg</item>
+        <item>Kiel</item>
+        <item>Lübeck</item>
+        <item>Potsdam</item>
+        <item>Remscheid</item>
+    </string-array>
+    <string-array name="arr_iraq_cities">
+        <item>Baghdad</item>
+        <item>Basra</item>
+        <item>Erbil</item>
+        <item>Najaf</item>
+        <item>Kirkuk</item>
+        <item>Sulaimaniya</item>
+        <item>Babylon</item>
+        <item>Fallujah</item>
+        <item>Ramadi</item>
+        <item>Karbala</item>
+        <item>Diwaniya</item>
+        <item>Baghdadi</item>
+        <item>Al-Qadisiyyah</item>
+        <item>Samawah</item>
+        <item>Missan</item>
+        <item>Nasiriyah</item>
+        <item>Kut</item>
+        <item>Amarah</item>
+        <item>Muqdadiya</item>
+        <item>Hilla</item>
+        <item>Rawa</item>
+        <item>Baiji</item>
+        <item>Duhok</item>
+        <item>Hawija</item>
+    </string-array>
+    <string-array name="arr_italy_cities">
+        <item>Rome</item>
+        <item>Milan</item>
+        <item>Venice</item>
+        <item>Florence</item>
+        <item>Naples</item>
+        <item>Turin</item>
+        <item>Bologna</item>
+        <item>Genoa</item>
+        <item>Palermo</item>
+        <item>Verona</item>
+        <item>Padua</item>
+        <item>Ravenna</item>
+        <item>Trieste</item>
+        <item>Messina</item>
+        <item>Catania</item>
+        <item>Vicenza</item>
+        <item>Modena</item>
+        <item>Perugia</item>
+        <item>La Spezia</item>
+        <item>Livorno</item>
+        <item>Reggio Calabria</item>
+        <item>Syracuse</item>
+    </string-array>
+    <string-array name="arr_jordan_cities">
+        <item>Amman</item>
+        <item>Irbid</item>
+        <item>Zarqa</item>
+        <item>Aqaba</item>
+        <item>Mafraq</item>
+        <item>Madaba</item>
+        <item>Karak</item>
+        <item>Salt</item>
+        <item>Tafila</item>
+        <item>Jerash</item>
+        <item>Maan</item>
+        <item>Ruseifa</item>
+        <item>Ajloun</item>
+        <item>Al-Karak</item>
+        <item>Qatrana</item>
+        <item>Al-Salt</item>
+        <item>Al-Mafraq</item>
+        <item>Al-Ramtha</item>
+    </string-array>
+    <string-array name="arr_lebanon_cities">
+        <item>Beirut</item>
+        <item>Tripoli</item>
+        <item>Sidon</item>
+        <item>Tyre</item>
+        <item>Jounieh</item>
+        <item>Byblos</item>
+        <item>Zahle</item>
+        <item>Baabda</item>
+        <item>Chouf</item>
+        <item>Metn</item>
+        <item>Batroun</item>
+        <item>Batroun</item>
+        <item>Aley</item>
+        <item>Jbeil</item>
+        <item>Keserwan</item>
+        <item>Bekaa</item>
+        <item>Rachaya</item>
+        <item>Baakleen</item>
+        <item>Khaldeh</item>
+        <item>Zgharta</item>
+    </string-array>
+    <string-array name="arr_mexico_cities">
+        <item>Mexico City</item>
+        <item>Guadalajara</item>
+        <item>Monterrey</item>
+        <item>Puebla</item>
+        <item>Cancún</item>
+        <item>Juárez</item>
+        <item>León</item>
+        <item>Zapopan</item>
+        <item>Chihuahua</item>
+        <item>Durango</item>
+        <item>Merida</item>
+        <item>San Luis Potosí</item>
+        <item>Aguascalientes</item>
+        <item>Toluca</item>
+        <item>Hermosillo</item>
+        <item>Morelia</item>
+        <item>Veracruz</item>
+        <item>Culiacán</item>
+        <item>La Paz</item>
+        <item>Saltillo</item>
+        <item>Fresnillo</item>
+        <item>Ensenada</item>
+        <item>Ciudad Obregón</item>
+        <item>Mexicali</item>
+        <item>Colima</item>
+        <item>Tepic</item>
+        <item>Campeche</item>
+        <item>Tapachula</item>
+    </string-array>
+    <string-array name="arr_palestine_cities">
+        <item>Jerusalem</item>
+        <item>Gaza</item>
+        <item>Hebron</item>
+        <item>Nablus</item>
+        <item>Ramallah</item>
+        <item>Jenin</item>
+        <item>Tulkaram</item>
+        <item>Qalqilya</item>
+        <item>Bethlehem</item>
+        <item>Salfit</item>
+        <item>Jericho</item>
+        <item>Rafah</item>
+        <item>Beit Lahia</item>
+        <item>Deir al-Balah</item>
+        <item>Gaza City</item>
+        <item>Al-Bireh</item>
+        <item>Abu Dis</item>
+        <item>Shufat</item>
+        <item>Askar</item>
+        <item>Khan Yunis</item>
+        <item>Jabalia</item>
+        <item>Beersheba</item>
+        <item>Qabatiya</item>
+        <item>Yatta</item>
+    </string-array>
+    <string-array name="arr_russia_cities">
+        <item>Moscow</item>
+        <item>Saint Petersburg</item>
+        <item>Novosibirsk</item>
+        <item>Yekaterinburg</item>
+        <item>Nizhny Novgorod</item>
+        <item>Samara</item>
+        <item>Omsk</item>
+        <item>Kazan</item>
+        <item>Chelyabinsk</item>
+        <item>Rostov-on-Don</item>
+        <item>Ufa</item>
+        <item>Saratov</item>
+        <item>Volgograd</item>
+        <item>Vladimir</item>
+        <item>Perm</item>
+        <item>Tyumen</item>
+        <item>Voronezh</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Ulyanovsk</item>
+        <item>Krasnodar</item>
+        <item>Sochi</item>
+        <item>Barnaul</item>
+        <item>Kaliningrad</item>
+        <item>Izhevsk</item>
+        <item>Arkhangelsk</item>
+        <item>Murmansk</item>
+        <item>Vladivostok</item>
+        <item>Yakutsk</item>
+        <item>Tomsk</item>
+        <item>Kaluga</item>
+        <item>Tver</item>
+        <item>Surgut</item>
+    </string-array>
+    <string-array name="arr_spinCity">
+        <item>Select the City</item>
+    </string-array>
+    <string-array name="arr_turkey_cities">
+        <item>Istanbul</item>
+        <item>Ankara</item>
+        <item>Izmir</item>
+        <item>Bursa</item>
+        <item>Antalya</item>
+        <item>Adana</item>
+        <item>Gaziantep</item>
+        <item>Konya</item>
+        <item>Kayseri</item>
+        <item>Mersin</item>
+        <item>Eskisehir</item>
+        <item>Manisa</item>
+        <item>Malatya</item>
+        <item>Denizli</item>
+        <item>Sanliurfa</item>
+        <item>Samsun</item>
+        <item>Trabzon</item>
+        <item>Balikesir</item>
+        <item>Hatay</item>
+        <item>Çorum</item>
+        <item>Tekirdag</item>
+        <item>Aydin</item>
+        <item>Çanakkale</item>
+        <item>Niğde</item>
+        <item>Ordu</item>
+        <item>Uşak</item>
+        <item>Rize</item>
+        <item>Tokat</item>
+        <item>Karabük</item>
+        <item>Sakarya</item>
+        <item>Kocaeli</item>
+        <item>Kastamonu</item>
+        <item>Yalova</item>
+        <item>Batman</item>
+        <item>Diyarbakir</item>
+        <item>Elazig</item>
+        <item>Van</item>
+        <item>Şırnak</item>
+    </string-array>
+    <string-array name="arr_usa_cities">
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Houston</item>
+        <item>Phoenix</item>
+        <item>Philadelphia</item>
+        <item>San Antonio</item>
+        <item>San Diego</item>
+        <item>Dallas</item>
+        <item>San Jose</item>
+        <item>Austin</item>
+        <item>Jacksonville</item>
+        <item>Fort Worth</item>
+        <item>Columbus</item>
+        <item>Charlotte</item>
+        <item>San Francisco</item>
+        <item>Indianapolis</item>
+        <item>Seattle</item>
+        <item>Denver</item>
+        <item>Washington D.C.</item>
+        <item>Boston</item>
+        <item>El Paso</item>
+        <item>Nashville</item>
+        <item>Detroit</item>
+        <item>Oklahoma City</item>
+        <item>Portland</item>
+        <item>Las Vegas</item>
+        <item>Memphis</item>
+        <item>Louisville</item>
+        <item>Baltimore</item>
+        <item>Milwaukee</item>
+        <item>Albuquerque</item>
+        <item>Tucson</item>
+        <item>Fresno</item>
+        <item>Sacramento</item>
+        <item>Mesa</item>
+        <item>Kansas City</item>
+        <item>Long Beach</item>
+        <item>Omaha</item>
+        <item>Virginia Beach</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/almendra_bold_italic</item>
+        <item>@font/amita_bold</item>
+    </array>
+    <string-array name="spincountry">
+        <item>Select the Country</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Turkey</item>
+        <item>Germany</item>
+        <item>Russia</item>
+        <item>Jordan</item>
+        <item>Palestine</item>
+        <item>Iraq</item>
+        <item>Lebanon</item>
+        <item>Usa</item>
+        <item>Canada</item>
+        <item>Mexico</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Plan-Go</string>
+    <string name="firebase_database_url" translatable="false">https://plan-go-ecfeb-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">815603514923</string>
+    <string name="google_api_key" translatable="false">AIzaSyA-E5UfdGg_tGnIQnxs0n_yFph6HRAVefM</string>
+    <string name="google_app_id" translatable="false">1:815603514923:android:b983a8c2b5afc151db346e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA-E5UfdGg_tGnIQnxs0n_yFph6HRAVefM</string>
+    <string name="google_storage_bucket" translatable="false">plan-go-ecfeb.firebasestorage.app</string>
+    <string name="project_id" translatable="false">plan-go-ecfeb</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    
+    <item name="colorPrimary">#FFFFFF</item>
+    <item name="colorPrimaryDark">#E6DFF4</item>
+    <item name="colorAccent">#03DAC5</item>
+</style>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>
