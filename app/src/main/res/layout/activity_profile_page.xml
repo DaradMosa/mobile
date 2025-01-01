@@ -232,9 +232,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:backgroundTint="#DF3121"
+            android:backgroundTint="#ffffff"
+            android:fontFamily="@font/kanitmedium"
             android:gravity="start"
             android:text="previous trips "
+            android:textColor="#1E4990"
             android:textSize="20sp"
             app:cornerRadius="0dp" />
 
@@ -243,19 +245,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
-            android:backgroundTint="#DF3121"
+            android:backgroundTint="#ffffff"
+            android:fontFamily="@font/kanitmedium"
             android:gravity="start"
             android:text="bookmarked"
+            android:textColor="#1E4990"
             android:textSize="20sp"
             app:cornerRadius="0dp" />
+
         <Button
             android:id="@+id/btnSignOut"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
-            android:backgroundTint="#DF3121"
+            android:backgroundTint="#ffffff"
             android:gravity="start"
             android:text="Sign Out"
+            android:textColor="#1E4990"
             android:textSize="20sp"
             app:cornerRadius="0dp" />
     </LinearLayout>

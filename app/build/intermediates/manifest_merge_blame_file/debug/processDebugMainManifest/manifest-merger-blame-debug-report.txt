@@ -79,11 +79,11 @@
 47        android:theme="@style/Theme.MyApplication" >
 47-->E:\androidProjects\mobile\app\src\main\AndroidManifest.xml:18:9-51
 48        <meta-data
-48-->E:\androidProjects\mobile\app\src\main\AndroidManifest.xml:21:9-23:71
+48-->E:\androidProjects\mobile\app\src\main\AndroidManifest.xml:21:9-23:32
 49            android:name="com.google.android.geo.API_KEY"
 49-->E:\androidProjects\mobile\app\src\main\AndroidManifest.xml:22:13-58
-50            android:value="AIzaSyC7chbErTXqGiyJun4M504wRLe9b6juDg0" />
-50-->E:\androidProjects\mobile\app\src\main\AndroidManifest.xml:23:13-68
+50            android:value="" />
+50-->E:\androidProjects\mobile\app\src\main\AndroidManifest.xml:23:13-29
 51
 52        <activity
 52-->E:\androidProjects\mobile\app\src\main\AndroidManifest.xml:27:9-29:40

@@ -36,16 +36,12 @@
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_sign_up.xml.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_map_ui.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_map_ui.xml"
+        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_inter.ttf.flat",
@@ -96,6 +92,10 @@
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\list_row.xml"
     },
     {
+        "merged": "com.example.myapplication.app-debug-44:/layout_activity_trip_planner_gui.xml.flat",
+        "source": "com.example.myapplication.app-main-46:/layout/activity_trip_planner_gui.xml"
+    },
+    {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_timeline_dot.xml.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\timeline_dot.xml"
     },
@@ -118,6 +118,10 @@
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_amita_bold.xml.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\amita_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_kanitmedium.ttf.flat",
+        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\kanitmedium.ttf"
     },
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -198,6 +202,10 @@
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_rome.jpg.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\rome.jpg"
+    },
+    {
+        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_edit_text_border.xml.flat",
+        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\edit_text_border.xml"
     },
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_main.xml.flat",

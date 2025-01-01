@@ -3469,6 +3469,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_text_border
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
@@ -3594,6 +3595,7 @@ font almendra_bold_italic
 font amita_bold
 font first_style
 font inter
+font kanitmedium
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3756,6 +3758,7 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
+id dep
 id depcal
 id dependency_ordering
 id design_bottom_sheet
@@ -4159,6 +4162,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id timePickerEditText
 id title
 id titleDividerNoCustom
 id title_template
@@ -4187,7 +4191,6 @@ id txtUserName
 id txtbudget
 id txtcity
 id txtcountry
-id txtdep
 id txtpackage
 id txtret
 id unchecked

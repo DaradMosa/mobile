@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.TimePicker;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -91,6 +93,31 @@ public class TripPlannerGUI extends AppCompatActivity {
                 }
             });
 
+
+
+            EditText timePickerEditText = findViewById(R.id.timePickerEditText);
+
+            timePickerEditText.setOnClickListener(v -> {
+                // Get the current time
+                Calendar calendar = Calendar.getInstance();
+                int hour = calendar.get(Calendar.HOUR_OF_DAY);
+                int minute = calendar.get(Calendar.MINUTE);
+
+                // Show the TimePickerDialog
+                TimePickerDialog timePickerDialog = new TimePickerDialog(
+                        TripPlannerGUI.this,
+                        (TimePicker view, int selectedHour, int selectedMinute) -> {
+                            // Update the EditText with the selected time
+                            String formattedTime = String.format("%02d:%02d", selectedHour, selectedMinute);
+                            timePickerEditText.setText(formattedTime);
+                        },
+                        hour,
+                        minute,
+                        true // Set to true for 24-hour format, false for 12-hour format
+                );
+
+                timePickerDialog.show();
+            });
 
             countrySp.setOnItemSelectedListener(new OnItemSelectedListener() {
                 @Override

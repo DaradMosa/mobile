@@ -27,6 +27,7 @@ drawable baseline_calendar_month_24
 drawable bd_view
 drawable border_activity
 drawable border_day
+drawable edit_text_border
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable istanbul
@@ -46,6 +47,7 @@ font almendra_bold_italic
 font amita_bold
 font first_style
 font inter
+font kanitmedium
 id ListView
 id backBtn
 id balibtn
@@ -56,6 +58,7 @@ id bud
 id budtxt
 id button
 id button2
+id dep
 id depcal
 id frontpage
 id horizontalScrollView2
@@ -118,6 +121,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id timePickerEditText
 id tvActivityDescription
 id tvActivityName
 id tvActivityTime
@@ -128,7 +132,6 @@ id txtUserName
 id txtbudget
 id txtcity
 id txtcountry
-id txtdep
 id txtpackage
 id txtret
 layout activity_itinerary_details_view
