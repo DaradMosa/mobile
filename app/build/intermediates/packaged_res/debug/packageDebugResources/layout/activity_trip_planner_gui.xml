@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginHorizontal="16dp">
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/arrow"
+        android:backgroundTint="#EFE7E7"
+        android:foregroundTint="#B3AFAF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:fontFamily="@font/inter"
+        android:layout_marginTop="25dp"
+        android:textColor="#1B1E28"
+        android:text="Enter Your Trip Details!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <TextView
+        android:id="@+id/txtcountry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Country:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/textView19" />
+
+    <Spinner
+        android:id="@+id/spincountry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtcountry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txtcity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="City:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spincountry" />
+
+    <Spinner
+        android:id="@+id/spincity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtcity" />
+
+
+    <TextView
+        android:id="@+id/dep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:padding="6dp"
+        android:text="Departure"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spincity" />
+
+    <EditText
+        android:id="@+id/timePickerEditText"
+        android:layout_width="141dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:hint="Select Time"
+        android:background="@drawable/edit_text_border"
+
+        android:padding="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/depcal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dep" />
+
+    <EditText
+        android:id="@+id/depcal"
+        android:layout_width="201dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:background="@drawable/edit_text_border"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:focusable="false"
+        android:hint="Enter Dep Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dep" />
+
+    <TextView
+        android:id="@+id/txtret"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Return Date:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/depcal" />
+
+    <EditText
+        android:id="@+id/retcal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Ret Date"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:clickable="false"
+        android:focusable="false"
+        android:cursorVisible="false"
+        app:layout_constraintTop_toBottomOf="@id/txtret"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+     />
+
+    <TextView
+        android:id="@+id/bud"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Set Budget:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/retcal" />
+
+    <EditText
+        android:id="@+id/budtxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Budget"
+        android:drawableRight="@drawable/baseline_attach_money_24"
+        app:layout_constraintTop_toBottomOf="@id/bud"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Itinerary"
+        android:backgroundTint="@color/design_default_color_error"
+        android:textSize="30dp"
+        app:layout_constraintTop_toBottomOf="@id/budtxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+ />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
