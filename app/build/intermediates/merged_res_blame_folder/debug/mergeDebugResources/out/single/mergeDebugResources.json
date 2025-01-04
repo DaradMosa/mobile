@@ -8,6 +8,10 @@
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\transhome.png"
     },
     {
+        "merged": "com.example.myapplication.app-debug-44:/layout_activity_itinerary_details_view.xml.flat",
+        "source": "com.example.myapplication.app-main-46:/layout/activity_itinerary_details_view.xml"
+    },
+    {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_baseline_attach_money_24.xml.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\baseline_attach_money_24.xml"
     },
@@ -28,12 +32,12 @@
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\almendra_bold_italic.xml"
     },
     {
-        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_sign_up.xml.flat",
@@ -92,10 +96,6 @@
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\list_row.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_trip_planner_gui.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_trip_planner_gui.xml"
-    },
-    {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_timeline_dot.xml.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\timeline_dot.xml"
     },
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_map_ui.xml.flat",
-        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_map_ui.xml"
-    },
-    {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_item_activity.xml.flat",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\item_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_map_ui.xml.flat",
+        "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_map_ui.xml"
     },
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_trip_planner_gui.xml.flat",

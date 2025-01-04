@@ -23,16 +23,20 @@ public final class ItemActivityBinding implements ViewBinding {
   public final TextView tvActivityDescription;
 
   @NonNull
+  public final TextView tvActivityLocation;
+
+  @NonNull
   public final TextView tvActivityName;
 
   @NonNull
   public final TextView tvActivityTime;
 
   private ItemActivityBinding(@NonNull LinearLayout rootView,
-      @NonNull TextView tvActivityDescription, @NonNull TextView tvActivityName,
-      @NonNull TextView tvActivityTime) {
+      @NonNull TextView tvActivityDescription, @NonNull TextView tvActivityLocation,
+      @NonNull TextView tvActivityName, @NonNull TextView tvActivityTime) {
     this.rootView = rootView;
     this.tvActivityDescription = tvActivityDescription;
+    this.tvActivityLocation = tvActivityLocation;
     this.tvActivityName = tvActivityName;
     this.tvActivityTime = tvActivityTime;
   }
@@ -70,6 +74,12 @@ public final class ItemActivityBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvActivityLocation;
+      TextView tvActivityLocation = ViewBindings.findChildViewById(rootView, id);
+      if (tvActivityLocation == null) {
+        break missingId;
+      }
+
       id = R.id.tvActivityName;
       TextView tvActivityName = ViewBindings.findChildViewById(rootView, id);
       if (tvActivityName == null) {
@@ -82,8 +92,8 @@ public final class ItemActivityBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemActivityBinding((LinearLayout) rootView, tvActivityDescription, tvActivityName,
-          tvActivityTime);
+      return new ItemActivityBinding((LinearLayout) rootView, tvActivityDescription,
+          tvActivityLocation, tvActivityName, tvActivityTime);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

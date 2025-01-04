@@ -55,7 +55,7 @@ id bottom_navigation
 id btnPlanYourTrip
 id btnSignOut
 id bud
-id budtxt
+id budgetTxt
 id button
 id button2
 id dep
@@ -79,6 +79,7 @@ id nav_map
 id nav_profile
 id password
 id recycler_view
+id retTimePicker
 id retcal
 id romebtn
 id rvActivities
@@ -123,10 +124,15 @@ id textView8
 id textView9
 id timePickerEditText
 id tvActivityDescription
+id tvActivityLocation
 id tvActivityName
 id tvActivityTime
 id tvDate
 id tvDay
+id txtBudget
+id txtDate
+id txtDest
+id txtTitle
 id txtUserEmail
 id txtUserName
 id txtbudget

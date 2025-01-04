@@ -3709,7 +3709,7 @@ id browser_actions_menu_view
 id btnPlanYourTrip
 id btnSignOut
 id bud
-id budtxt
+id budgetTxt
 id button
 id button2
 id buttonPanel
@@ -4019,6 +4019,7 @@ id ratio
 id rectangles
 id recycler_view
 id report_drawn
+id retTimePicker
 id retcal
 id reverseSawtooth
 id right
@@ -4182,10 +4183,15 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvActivityDescription
+id tvActivityLocation
 id tvActivityName
 id tvActivityTime
 id tvDate
 id tvDay
+id txtBudget
+id txtDate
+id txtDest
+id txtTitle
 id txtUserEmail
 id txtUserName
 id txtbudget

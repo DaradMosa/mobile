@@ -4,6 +4,7 @@ import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
@@ -15,6 +16,7 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +26,11 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.Locale;
+import java.io.Serializable;
+import java.util.Map;
+
 
 public class TripPlannerGUI extends AppCompatActivity {
 
@@ -33,16 +39,18 @@ public class TripPlannerGUI extends AppCompatActivity {
         private Spinner countrySp,citySp;
         private ArrayAdapter<CharSequence> countryAdapter;
         private ArrayAdapter<CharSequence> cityAdapter;
-        private EditText depEd1;
+        private EditText depEd1,budgetTxt;
         final Calendar depCal= Calendar.getInstance();
         final Calendar retCal= Calendar.getInstance();
         private DatePickerDialog dpd;
         private EditText retEd1;
         private Button submitBtn;
         private ImageButton backBtn;
-
-
-        @Override
+        private EditText timePickerEditText,retTimePicker;
+        private String selectedArrivalTime,selectedArrivalDate
+                ,selectedDepartureTime,selectedDepartureDate;
+        public HashMap<String, String> dataMap;
+    @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             EdgeToEdge.enable(this);
@@ -56,8 +64,12 @@ public class TripPlannerGUI extends AppCompatActivity {
             retEd1                  = findViewById(R.id.retcal);
             backBtn                 = findViewById(R.id.backBtn);
             submitBtn               = findViewById(R.id.submit);
+            timePickerEditText      = findViewById(R.id.timePickerEditText);
+            retTimePicker           = findViewById(R.id.retTimePicker);
+            citySp                  = findViewById(R.id.spincity);
+            budgetTxt               = findViewById(R.id.budgetTxt);
 
-
+            dataMap                 = new HashMap<>();
             depEd1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -68,9 +80,10 @@ public class TripPlannerGUI extends AppCompatActivity {
                             depCal.set(Calendar.MONTH,month);
                             depCal.set(Calendar.DAY_OF_MONTH,dayOfMonth);
 
-                            String myFormat="dd-MM-yyyy";
-                            SimpleDateFormat dateFormat=new SimpleDateFormat(myFormat, Locale.US);
+                            selectedArrivalDate="dd-MM-yyyy";
+                            SimpleDateFormat dateFormat=new SimpleDateFormat(selectedArrivalDate, Locale.US);
                             depEd1.setText(dateFormat.format(depCal.getTime()));
+                            dataMap.put("ArrivalDate", dateFormat.format(depCal.getTime()));
                         }
                     }, depCal.get(Calendar.YEAR), depCal.get(Calendar.MONTH), depCal.get(Calendar.DAY_OF_MONTH)).show();
                 }
@@ -85,9 +98,11 @@ public class TripPlannerGUI extends AppCompatActivity {
                             retCal.set(Calendar.MONTH,month);
                             retCal.set(Calendar.DAY_OF_MONTH,dayOfMonth);
 
-                            String myFormat="dd-MM-yyyy";
-                            SimpleDateFormat dateFormat=new SimpleDateFormat(myFormat, Locale.US);
+                            selectedDepartureDate="dd-MM-yyyy";
+                            SimpleDateFormat dateFormat=new SimpleDateFormat(selectedDepartureDate, Locale.US);
                             retEd1.setText(dateFormat.format(retCal.getTime()));
+                            dataMap.put("DepartureDate", dateFormat.format(retCal.getTime()));
+
                         }
                     }, retCal.get(Calendar.YEAR), retCal.get(Calendar.MONTH), retCal.get(Calendar.DAY_OF_MONTH)).show();
                 }
@@ -95,7 +110,6 @@ public class TripPlannerGUI extends AppCompatActivity {
 
 
 
-            EditText timePickerEditText = findViewById(R.id.timePickerEditText);
 
             timePickerEditText.setOnClickListener(v -> {
                 // Get the current time
@@ -108,8 +122,33 @@ public class TripPlannerGUI extends AppCompatActivity {
                         TripPlannerGUI.this,
                         (TimePicker view, int selectedHour, int selectedMinute) -> {
                             // Update the EditText with the selected time
-                            String formattedTime = String.format("%02d:%02d", selectedHour, selectedMinute);
-                            timePickerEditText.setText(formattedTime);
+                            selectedArrivalTime = String.format("%02d:%02d", selectedHour, selectedMinute);
+                            timePickerEditText.setText(selectedArrivalTime);
+                            dataMap.put("ArrivalTime",selectedArrivalTime);
+
+                        },
+                        hour,
+                        minute,
+                        true // Set to true for 24-hour format, false for 12-hour format
+                );
+
+                timePickerDialog.show();
+            });
+
+            retTimePicker.setOnClickListener(v -> {
+                // Get the current time
+                Calendar calendar = Calendar.getInstance();
+                int hour = calendar.get(Calendar.HOUR_OF_DAY);
+                int minute = calendar.get(Calendar.MINUTE);
+
+                // Show the TimePickerDialog
+                TimePickerDialog timePickerDialog = new TimePickerDialog(
+                        TripPlannerGUI.this,
+                        (TimePicker view, int selectedHour, int selectedMinute) -> {
+                            // Update the EditText with the selected time
+                            selectedDepartureTime = String.format("%02d:%02d", selectedHour, selectedMinute);
+                            retTimePicker.setText(selectedDepartureTime);
+                            dataMap.put("DepartureTime",selectedDepartureTime);
                         },
                         hour,
                         minute,
@@ -122,7 +161,6 @@ public class TripPlannerGUI extends AppCompatActivity {
             countrySp.setOnItemSelectedListener(new OnItemSelectedListener() {
                 @Override
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                    citySp=findViewById(R.id.spincity);
                     selectedCountry= countrySp.getSelectedItem().toString();
                     int parentID = parent.getId();
                     if(parentID==R.id.spincountry){
@@ -178,8 +216,12 @@ public class TripPlannerGUI extends AppCompatActivity {
             submitBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(new Intent(TripPlannerGUI.this, ItineraryView.class));
-                    finish();
+                    dataMap.put("Country",countrySp.getSelectedItem().toString());
+                    dataMap.put("City",citySp.getSelectedItem().toString());
+                    dataMap.put("Budget",budgetTxt.getText().toString());
+                    Intent intent = new Intent(TripPlannerGUI.this, ItineraryDetailsView.class);
+                    intent.putExtra("dataMap", dataMap);
+                    startActivity(intent);
                 }
             });
 
@@ -188,6 +230,23 @@ public class TripPlannerGUI extends AppCompatActivity {
                 v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
                 return insets;
             });
+
+        }
+
+        private void validateFields()
+        {
+            if (countrySp.getSelectedItem().toString().equals("Select the Country")) {
+                Toast.makeText(this, "Please select a country!", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (TextUtils.isEmpty(selectedDepartureTime)) {
+                retTimePicker.setError("Select your departure time!");
+                return;
+            }
+            if (TextUtils.isEmpty(selectedArrivalTime)) {
+                timePickerEditText.setError("Select your arrival time!");
+                return;
+            }
 
         }
 }

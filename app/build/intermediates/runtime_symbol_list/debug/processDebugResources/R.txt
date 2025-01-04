@@ -3708,7 +3708,7 @@ int id browser_actions_menu_view 0x7f0a006d
 int id btnPlanYourTrip 0x7f0a006e
 int id btnSignOut 0x7f0a006f
 int id bud 0x7f0a0070
-int id budtxt 0x7f0a0071
+int id budgetTxt 0x7f0a0270
 int id button 0x7f0a0072
 int id button2 0x7f0a0073
 int id buttonPanel 0x7f0a0074
@@ -4018,6 +4018,7 @@ int id ratio 0x7f0a01a3
 int id rectangles 0x7f0a01a4
 int id recycler_view 0x7f0a01a5
 int id report_drawn 0x7f0a01a6
+int id retTimePicker 0x7f0a026f
 int id retcal 0x7f0a01a7
 int id reverseSawtooth 0x7f0a01a8
 int id right 0x7f0a01a9
@@ -4181,10 +4182,15 @@ int id transition_scene_layoutid_cache 0x7f0a0246
 int id transition_transform 0x7f0a0247
 int id triangle 0x7f0a0248
 int id tvActivityDescription 0x7f0a0249
+int id tvActivityLocation 0x7f0a0271
 int id tvActivityName 0x7f0a024a
 int id tvActivityTime 0x7f0a024b
 int id tvDate 0x7f0a024c
 int id tvDay 0x7f0a024d
+int id txtBudget 0x7f0a0272
+int id txtDate 0x7f0a0273
+int id txtDest 0x7f0a0274
+int id txtTitle 0x7f0a0275
 int id txtUserEmail 0x7f0a024e
 int id txtUserName 0x7f0a024f
 int id txtbudget 0x7f0a0250

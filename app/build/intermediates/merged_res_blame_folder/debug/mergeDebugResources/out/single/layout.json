@@ -20,16 +20,16 @@
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_trip_planner_gui.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_trip_planner_gui.xml"
-    },
-    {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\item_itinerary.xml",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\item_itinerary.xml"
     },
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\spinner_layout.xml",
         "source": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_itinerary_details_view.xml",
+        "source": "com.example.myapplication.app-main-46:/layout/activity_itinerary_details_view.xml"
     },
     {
         "merged": "C:\\Users\\mosa\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_itinerary_details_view.xml",

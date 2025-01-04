@@ -4,6 +4,9 @@ public class ItineraryPa {
 
     String name, time, description, location, googleMapsLink;
 
+    public ItineraryPa(String name, String time, String description, String location) {
+        this(name, time, description, location, ""); // Calling the other constructor with a default empty string
+    }
     public ItineraryPa(String name, String time, String description, String location, String googleMapsLink) {
         this.name = name;
         this.time = time;
