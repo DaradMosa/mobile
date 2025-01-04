@@ -52,6 +52,7 @@
         android:id="@+id/spincountry"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_border"
         app:layout_constraintTop_toBottomOf="@id/txtcountry"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -71,6 +72,7 @@
     <Spinner
         android:id="@+id/spincity"
         android:layout_width="0dp"
+        android:background="@drawable/edit_text_border"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:padding="6dp"
-        android:text="Departure"
+        android:text="Arrival"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,8 +100,10 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/edit_text_border"
         android:cursorVisible="false"
+        android:textAlignment="center"
         android:focusable="false"
         android:hint="Select Time"
+        android:textSize="12dp"
 
         android:padding="12dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,7 +111,7 @@
 
     <EditText
         android:id="@+id/depcal"
-        android:layout_width="201dp"
+        android:layout_width="215dp"
         android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
@@ -116,36 +120,86 @@
         android:cursorVisible="false"
         android:drawableRight="@drawable/baseline_calendar_month_24"
         android:focusable="false"
-        android:hint="Enter Dep Date"
+        android:hint="Enter Arrivale Date"
+        android:textAlignment="center"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/timePickerEditText"
         app:layout_constraintTop_toBottomOf="@+id/dep" />
 
     <TextView
         android:id="@+id/txtret"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:padding="6dp"
-        android:text="Return Date:"
+        android:text="Departure"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/depcal" />
+        app:layout_constraintTop_toBottomOf="@id/timePickerEditText" />
+
+    <EditText
+        android:id="@+id/retTimePicker"
+        android:layout_width="141dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:hint="Select Time"
+        android:textSize="12dp"
+        android:textAlignment="center"
+
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtret" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/txtret"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="6dp"-->
+<!--        android:text="Return Date:"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/depcal" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/retcal"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Ret Date"-->
+<!--        android:drawableRight="@drawable/baseline_calendar_month_24"-->
+<!--        android:clickable="false"-->
+<!--        android:focusable="false"-->
+<!--        android:cursorVisible="false"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/txtret"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--     />-->
 
     <EditText
         android:id="@+id/retcal"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Enter Ret Date"
-        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:layout_width="215dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
         android:clickable="false"
-        android:focusable="false"
         android:cursorVisible="false"
-        app:layout_constraintTop_toBottomOf="@id/txtret"
-        app:layout_constraintStart_toStartOf="parent"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:focusable="false"
+        android:hint="Enter Departure Date"
+        android:textAlignment="center"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-     />
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toEndOf="@+id/retTimePicker"
+        app:layout_constraintTop_toBottomOf="@+id/txtret" />
 
     <TextView
         android:id="@+id/bud"
@@ -154,17 +208,19 @@
         android:padding="6dp"
         android:text="Set Budget:"
         android:textColor="@color/black"
+        android:layout_marginTop="20dp"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/retcal" />
 
     <EditText
-        android:id="@+id/budtxt"
+        android:id="@+id/budgetTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Enter your Budget"
         android:drawableRight="@drawable/baseline_attach_money_24"
+        android:background="@drawable/edit_text_border"
         app:layout_constraintTop_toBottomOf="@id/bud"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -176,8 +232,9 @@
         android:text="View Itinerary"
         android:backgroundTint="@color/design_default_color_error"
         android:textSize="30dp"
-        app:layout_constraintTop_toBottomOf="@id/budtxt"
+        app:layout_constraintTop_toBottomOf="@id/budgetTxt"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
  />
 

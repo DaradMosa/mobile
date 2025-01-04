@@ -31,16 +31,29 @@ public final class ActivityItineraryDetailsViewBinding implements ViewBinding {
   public final RecyclerView rvDays;
 
   @NonNull
-  public final TextView textView19;
+  public final TextView txtBudget;
+
+  @NonNull
+  public final TextView txtDate;
+
+  @NonNull
+  public final TextView txtDest;
+
+  @NonNull
+  public final TextView txtTitle;
 
   private ActivityItineraryDetailsViewBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backBtn, @NonNull ConstraintLayout main, @NonNull RecyclerView rvDays,
-      @NonNull TextView textView19) {
+      @NonNull TextView txtBudget, @NonNull TextView txtDate, @NonNull TextView txtDest,
+      @NonNull TextView txtTitle) {
     this.rootView = rootView;
     this.backBtn = backBtn;
     this.main = main;
     this.rvDays = rvDays;
-    this.textView19 = textView19;
+    this.txtBudget = txtBudget;
+    this.txtDate = txtDate;
+    this.txtDest = txtDest;
+    this.txtTitle = txtTitle;
   }
 
   @Override
@@ -84,14 +97,32 @@ public final class ActivityItineraryDetailsViewBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView19;
-      TextView textView19 = ViewBindings.findChildViewById(rootView, id);
-      if (textView19 == null) {
+      id = R.id.txtBudget;
+      TextView txtBudget = ViewBindings.findChildViewById(rootView, id);
+      if (txtBudget == null) {
+        break missingId;
+      }
+
+      id = R.id.txtDate;
+      TextView txtDate = ViewBindings.findChildViewById(rootView, id);
+      if (txtDate == null) {
+        break missingId;
+      }
+
+      id = R.id.txtDest;
+      TextView txtDest = ViewBindings.findChildViewById(rootView, id);
+      if (txtDest == null) {
+        break missingId;
+      }
+
+      id = R.id.txtTitle;
+      TextView txtTitle = ViewBindings.findChildViewById(rootView, id);
+      if (txtTitle == null) {
         break missingId;
       }
 
       return new ActivityItineraryDetailsViewBinding((ConstraintLayout) rootView, backBtn, main,
-          rvDays, textView19);
+          rvDays, txtBudget, txtDate, txtDest, txtTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

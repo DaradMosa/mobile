@@ -9,8 +9,8 @@ import retrofit2.http.POST;
 //HTTP CALL
 public interface OpenAIService{
     @Headers({
-            "Content-Type: application/json",
-            "Authorization: Bearer YOUR_API_KEY" // Replace with your OpenAI API key
+            "Authorization: Bearer ", // Replace with your OpenAI API key
+            "Content-Type: application/json"
     })
     @POST("v1/chat/completions")
     Call<OpenAIResponse> getItinerary(@Body OpenAIRequest request);
