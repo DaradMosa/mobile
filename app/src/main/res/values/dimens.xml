@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="drawable_width">6dp</dimen>   <!-- Set your desired width in dp -->
+    <dimen name="drawable_height">6dp</dimen>  <!-- Set your desired height in dp -->
+</resources>
