@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:backgroundTint="#141111"
+    tools:context=".introMain">
+
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-16dp"
+        android:layout_marginEnd="-16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/main1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img3"
+        app:layout_constraintVertical_bias="0.48"
+        tools:context=".introMain">
+
+        <TextView
+            android:id="@+id/big"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="221dp"
+            android:fontFamily="@font/fontmain"
+            android:text="It's a big world out "
+            android:textAlignment="center"
+            android:textColor="#1D0303"
+            android:textSize="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/desc"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/there"
+            android:layout_width="149dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/fontmain"
+            android:text="there go"
+            android:textAlignment="center"
+            android:textColor="#1D0303"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/desc"
+            app:layout_constraintEnd_toEndOf="@+id/desc"
+            app:layout_constraintEnd_toStartOf="@+id/explore"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/explore"
+            android:layout_width="140dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="497dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="21dp"
+            android:fontFamily="@font/fontmain"
+            android:text="explore"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/there"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="378dp"
+            android:layout_height="173dp"
+            android:layout_marginBottom="144dp"
+            android:fontFamily="@font/fontdesc"
+            android:text="To get the best of your adventure you just need to leave and go where you like.we are waiting for you "
+            android:textAlignment="center"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/explore" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="384dp"
+            android:layout_height="84dp"
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="#DC0F0F"
+            android:text="Next"
+            android:textSize="30dp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/desc"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desc"
+            app:layout_constraintVertical_bias="0.753" />
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
