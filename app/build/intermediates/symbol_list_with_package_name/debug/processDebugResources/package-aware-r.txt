@@ -3495,6 +3495,9 @@ drawable ic_other_sign_in
 drawable ic_passkey
 drawable ic_password
 drawable ic_search_black_24
+drawable img1
+drawable img2
+drawable img3
 drawable indeterminate_static
 drawable istanbul
 drawable m3_avd_hide_password
@@ -3594,6 +3597,8 @@ font alfa_slab_one
 font almendra_bold_italic
 font amita_bold
 font first_style
+font fontdesc
+font fontmain
 font inter
 font kanitmedium
 id ALT
@@ -3601,6 +3606,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Getstarted
 id ListView
 id META
 id NO_DEBUG
@@ -3694,6 +3700,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id big
 id blocking
 id bottom
 id bottom_navigation
@@ -3761,6 +3768,7 @@ id deltaRelative
 id dep
 id depcal
 id dependency_ordering
+id desc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3800,6 +3808,7 @@ id escape
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id explore
 id fade
 id fill
 id fill_horizontal
@@ -3845,6 +3854,9 @@ id ignoreRequest
 id image
 id imageView
 id imageView8
+id img1
+id img2
+id img3
 id immediateStop
 id included
 id indeterminate
@@ -3865,6 +3877,7 @@ id layout
 id left
 id leftToRight
 id legacy
+id life
 id light
 id line1
 id line3
@@ -3874,6 +3887,7 @@ id listMode
 id list_item
 id m3_side_sheet
 id main
+id main1
 id map
 id marquee
 id masked
@@ -3949,6 +3963,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id next
 id noScroll
 id noState
 id none
@@ -3988,6 +4003,8 @@ id password_toggle
 id path
 id pathRelative
 id peekHeight
+id people
+id people1
 id percent
 id pin
 id places_autocomplete_back_button
@@ -4162,6 +4179,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id there
 id time
 id timePickerEditText
 id title
@@ -4182,6 +4200,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id trips
 id tvActivityDescription
 id tvActivityLocation
 id tvActivityName
@@ -4220,6 +4239,7 @@ id window
 id withText
 id with_icon
 id withinBounds
+id world
 id wrap
 id wrap_content
 id wrap_content_constrained
@@ -4340,6 +4360,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_intro_main
 layout activity_itinerary_details_view
 layout activity_itinerary_view
 layout activity_main
@@ -4374,6 +4395,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout intro2
+layout intro3
 layout item_activity
 layout item_itinerary
 layout list_row
