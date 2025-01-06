@@ -30,7 +30,7 @@ public final class ActivityTripPlannerGuiBinding implements ViewBinding {
   public final TextView bud;
 
   @NonNull
-  public final EditText budtxt;
+  public final EditText budgetTxt;
 
   @NonNull
   public final TextView dep;
@@ -40,6 +40,9 @@ public final class ActivityTripPlannerGuiBinding implements ViewBinding {
 
   @NonNull
   public final ConstraintLayout main;
+
+  @NonNull
+  public final EditText retTimePicker;
 
   @NonNull
   public final EditText retcal;
@@ -69,18 +72,20 @@ public final class ActivityTripPlannerGuiBinding implements ViewBinding {
   public final TextView txtret;
 
   private ActivityTripPlannerGuiBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton backBtn, @NonNull TextView bud, @NonNull EditText budtxt,
+      @NonNull ImageButton backBtn, @NonNull TextView bud, @NonNull EditText budgetTxt,
       @NonNull TextView dep, @NonNull EditText depcal, @NonNull ConstraintLayout main,
-      @NonNull EditText retcal, @NonNull Spinner spincity, @NonNull Spinner spincountry,
-      @NonNull Button submit, @NonNull TextView textView19, @NonNull EditText timePickerEditText,
-      @NonNull TextView txtcity, @NonNull TextView txtcountry, @NonNull TextView txtret) {
+      @NonNull EditText retTimePicker, @NonNull EditText retcal, @NonNull Spinner spincity,
+      @NonNull Spinner spincountry, @NonNull Button submit, @NonNull TextView textView19,
+      @NonNull EditText timePickerEditText, @NonNull TextView txtcity, @NonNull TextView txtcountry,
+      @NonNull TextView txtret) {
     this.rootView = rootView;
     this.backBtn = backBtn;
     this.bud = bud;
-    this.budtxt = budtxt;
+    this.budgetTxt = budgetTxt;
     this.dep = dep;
     this.depcal = depcal;
     this.main = main;
+    this.retTimePicker = retTimePicker;
     this.retcal = retcal;
     this.spincity = spincity;
     this.spincountry = spincountry;
@@ -131,9 +136,9 @@ public final class ActivityTripPlannerGuiBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.budtxt;
-      EditText budtxt = ViewBindings.findChildViewById(rootView, id);
-      if (budtxt == null) {
+      id = R.id.budgetTxt;
+      EditText budgetTxt = ViewBindings.findChildViewById(rootView, id);
+      if (budgetTxt == null) {
         break missingId;
       }
 
@@ -150,6 +155,12 @@ public final class ActivityTripPlannerGuiBinding implements ViewBinding {
       }
 
       ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.retTimePicker;
+      EditText retTimePicker = ViewBindings.findChildViewById(rootView, id);
+      if (retTimePicker == null) {
+        break missingId;
+      }
 
       id = R.id.retcal;
       EditText retcal = ViewBindings.findChildViewById(rootView, id);
@@ -205,9 +216,9 @@ public final class ActivityTripPlannerGuiBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityTripPlannerGuiBinding((ConstraintLayout) rootView, backBtn, bud, budtxt,
-          dep, depcal, main, retcal, spincity, spincountry, submit, textView19, timePickerEditText,
-          txtcity, txtcountry, txtret);
+      return new ActivityTripPlannerGuiBinding((ConstraintLayout) rootView, backBtn, bud, budgetTxt,
+          dep, depcal, main, retTimePicker, retcal, spincity, spincountry, submit, textView19,
+          timePickerEditText, txtcity, txtcountry, txtret);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

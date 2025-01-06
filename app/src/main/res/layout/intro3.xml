@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:backgroundTint="#141111"
+    tools:context=".introMain">
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-16dp"
+        android:layout_marginEnd="-16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/main1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img2"
+        app:layout_constraintVertical_bias="0.48"
+        tools:context=".introMain">
+
+        <TextView
+            android:id="@+id/people"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="221dp"
+            android:fontFamily="@font/fontmain"
+            android:text="People don't take trips, "
+            android:textAlignment="center"
+            android:textColor="#1D0303"
+            android:textSize="36dp"
+            app:layout_constraintEnd_toEndOf="@+id/desc"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/trips"
+            android:layout_width="178dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/fontmain"
+            android:text="trips take"
+            android:textAlignment="center"
+            android:textColor="#1D0303"
+            android:textSize="36dp"
+            app:layout_constraintBottom_toTopOf="@+id/desc"
+            app:layout_constraintEnd_toEndOf="@+id/desc"
+            app:layout_constraintEnd_toStartOf="@+id/people1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/people1"
+            android:layout_width="120dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="497dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="21dp"
+            android:fontFamily="@font/fontmain"
+            android:text="people"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="36dp"
+            app:layout_constraintBottom_toTopOf="@+id/desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/trips"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="378dp"
+            android:layout_height="173dp"
+            android:layout_marginBottom="144dp"
+            android:fontFamily="@font/fontdesc"
+            android:text="To get the best of your adventure you just need to leave and go where you like.we are waiting for you "
+            android:textAlignment="center"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/explore" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="384dp"
+            android:layout_height="84dp"
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="#DC0F0F"
+            android:text="Next"
+            android:textSize="30dp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/desc"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desc"
+            app:layout_constraintVertical_bias="0.753" />
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

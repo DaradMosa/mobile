@@ -3,11 +3,11 @@
     <solid android:color="#FFFFFF" /> <!-- Background color -->
     <stroke
         android:width="2dp"
-        android:color="#000000" /> <!-- Border color and width -->
-    <corners android:radius="8dp" /> <!-- Rounded corners (optional) -->
+        android:color="@color/quantum_grey" /> <!-- Border color and width -->
+    <corners android:radius="2dp" /> <!-- Rounded corners (optional) -->
     <padding
         android:left="4dp"
         android:top="4dp"
-        android:right="4dp"
-        android:bottom="4dp" />
+        android:right="8dp"
+        android:bottom="8dp" />
 </shape>
