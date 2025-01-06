@@ -1,270 +1,242 @@
 [
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_transview.png.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/transview.png"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_almendra_bold_italic.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\almendra_bold_italic.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_rome.jpg.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\rome.jpg"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_topback.png.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\topback.png"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_istanbul.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/istanbul.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_istanbul.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\istanbul.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_itinerary_details_view.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_itinerary_details_view.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_transview.png.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\transview.png"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/xml_backup_rules.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_spinner_layout.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\spinner_layout.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_img1.jpeg.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/img1.jpeg"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_border_activity.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/border_activity.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_intro_main.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_intro_main.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_main_page.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_main_page.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_fontmain.ttf.flat",
-        "source": "com.example.myapplication.app-main-46:/font/fontmain.ttf"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_transhome.png.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\transhome.png"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_edit_text_border.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/edit_text_border.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_itinerary_view.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_itinerary_view.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_map_ui.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_map_ui.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_test.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\test.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.myapplication.app-debug-44:/layout_activity_maps.xml.flat",
+        "source": "com.example.myapplication.app-main-46:/layout/activity_maps.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_bali.jpg.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/bali.jpg"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\baseline_calendar_month_24.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_test.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/test.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_abril_fatface.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/font/abril_fatface.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_trevifountain.jpg.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\trevifountain.jpg"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_days_activity.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/days_activity.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_days_activity.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\days_activity.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_newguy.png.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/newguy.png"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_item_activity.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\item_activity.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_arrow.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/arrow.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_timeline_dot.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\timeline_dot.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_img3.jpeg.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/img3.jpeg"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_bd_view.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\bd_view.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_first_style.ttf.flat",
-        "source": "com.example.myapplication.app-main-46:/font/first_style.ttf"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_abril_fatface.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\abril_fatface.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_transhome.png.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/transhome.png"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_transprofiles.png.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\transprofiles.png"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_trip_planner_gui.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_trip_planner_gui.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_maps_main.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_maps_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_transcalen.png.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/transcalen.png"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_almendra_bold_italic.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/font/almendra_bold_italic.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_trip_planner_gui.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_trip_planner_gui.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_sign_in.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_edit_text_border.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\edit_text_border.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_kanitmedium.ttf.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\kanitmedium.ttf"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_img2.jpeg.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/img2.jpeg"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_itinerary_details_view.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_itinerary_details_view.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_item_activity.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/item_activity.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_baseline_attach_money_24.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\baseline_attach_money_24.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_trevifountain.jpg.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/trevifountain.jpg"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_inter.ttf.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\inter.ttf"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_baseline_calendar_month_24.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/baseline_calendar_month_24.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_transcalen.png.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\transcalen.png"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_baseline_attach_money_24.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/baseline_attach_money_24.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_border_activity.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\border_activity.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_sign_up.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_arrow.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\arrow.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_profile_page.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_profile_page.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_border_day.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\border_day.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_first_style.ttf.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\first_style.ttf"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_list_row.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/list_row.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_alfa_slab_one.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\alfa_slab_one.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_transprofiles.png.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/transprofiles.png"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_timeline_dot.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/timeline_dot.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_item_itinerary.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\item_itinerary.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_maps_main.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_maps_main.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_bali.jpg.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\bali.jpg"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_amita_bold.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/font/amita_bold.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_newguy.png.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\newguy.png"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_list_row.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\list_row.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_bd_view.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/bd_view.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_map_ui.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_map_ui.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_abyssinica_sil.ttf.flat",
-        "source": "com.example.myapplication.app-main-46:/font/abyssinica_sil.ttf"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_rome.jpg.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/rome.jpg"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_intro3.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/intro3.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_alfa_slab_one.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/font/alfa_slab_one.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_spinner_layout.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/spinner_layout.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_abyssinica_sil.ttf.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\abyssinica_sil.ttf"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_item_itinerary.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/item_itinerary.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_inter.ttf.flat",
-        "source": "com.example.myapplication.app-main-46:/font/inter.ttf"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_profile_page.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_profile_page.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_fontdesc.TTF.flat",
-        "source": "com.example.myapplication.app-main-46:/font/fontdesc.TTF"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/layout_intro2.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/intro2.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.myapplication.app-debug-44:/font_kanitmedium.ttf.flat",
-        "source": "com.example.myapplication.app-main-46:/font/kanitmedium.ttf"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_itinerary_view.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_itinerary_view.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_topback.png.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/topback.png"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.myapplication.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-44:/drawable_border_day.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/drawable/border_day.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_main_page.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_main_page.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-44:/layout_activity_main.xml.flat",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_main.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-debug-44:\\font_amita_bold.xml.flat",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\font\\amita_bold.xml"
     }
 ]

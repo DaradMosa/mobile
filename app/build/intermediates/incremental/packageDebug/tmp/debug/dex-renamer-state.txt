@@ -1,10 +1,10 @@
-#Sat Jan 04 20:38:48 EET 2025
-base.0=E\:\\androidProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=E\:\\androidProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=E\:\\androidProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.3=E\:\\androidProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.4=E\:\\androidProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=E\:\\androidProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Mon Jan 06 23:39:15 EET 2025
+base.0=C\:\\Users\\banas\\AndroidStudioProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\banas\\AndroidStudioProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\banas\\AndroidStudioProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.3=C\:\\Users\\banas\\AndroidStudioProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.4=C\:\\Users\\banas\\AndroidStudioProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.5=C\:\\Users\\banas\\AndroidStudioProjects\\mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex

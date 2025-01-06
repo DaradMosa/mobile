@@ -1,78 +1,70 @@
 [
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/intro3.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/intro3.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_itinerary_view.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_itinerary_view.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_trip_planner_gui.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_trip_planner_gui.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\test.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\test.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/list_row.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/list_row.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_main.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_main.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_itinerary_details_view.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_itinerary_details_view.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_sign_in.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/days_activity.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/days_activity.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_profile_page.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_profile_page.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/item_itinerary.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/item_itinerary.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_map_ui.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_map_ui.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_intro_main.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_intro_main.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_main_page.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_main_page.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_itinerary_details_view.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_itinerary_details_view.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_maps_main.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_maps_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/spinner_layout.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/spinner_layout.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\list_row.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\list_row.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_main_page.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_main_page.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\item_itinerary.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\item_itinerary.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_maps_main.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_maps_main.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_itinerary_view.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_itinerary_view.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\item_activity.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\item_activity.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_sign_up.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\days_activity.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\days_activity.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_profile_page.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_profile_page.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\spinner_layout.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\spinner_layout.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/test.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/test.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_maps.xml",
+        "source": "com.example.myapplication.app-main-46:/layout/activity_maps.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/activity_map_ui.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/activity_map_ui.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/intro2.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/intro2.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-43:/layout/item_activity.xml",
-        "source": "com.example.myapplication.app-main-46:/layout/item_activity.xml"
+        "merged": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-mergeDebugResources-43:\\layout\\activity_trip_planner_gui.xml",
+        "source": "C:\\Users\\banas\\.gradle\\daemon\\8.9\\com.example.myapplication.app-main-46:\\layout\\activity_trip_planner_gui.xml"
     }
 ]

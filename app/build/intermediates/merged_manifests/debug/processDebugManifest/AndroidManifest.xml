@@ -45,13 +45,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity
-            android:name="com.example.myapplication.introMain"
-            android:exported="false" />
+        <activity android:name="com.example.myapplication.MapsActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="" />
+            android:value="AIzaSyD5Z0cOAR7SD6Ss6Cmsynro6SO_nBUIiV0" />
 
         <activity
             android:name="com.example.myapplication.MapsMain"

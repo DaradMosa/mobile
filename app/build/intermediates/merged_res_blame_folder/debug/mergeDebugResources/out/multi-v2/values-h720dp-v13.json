@@ -4,7 +4,7 @@
             "outputFile": "com.example.myapplication.app-mergeDebugResources-42:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mosa\\.gradle\\caches\\8.9\\transforms\\a3dc3faab3956a077c9d228aef9c2715\\transformed\\appcompat-1.7.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\banas\\.gradle\\caches\\8.9\\transforms\\a3dc3faab3956a077c9d228aef9c2715\\transformed\\appcompat-1.7.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
