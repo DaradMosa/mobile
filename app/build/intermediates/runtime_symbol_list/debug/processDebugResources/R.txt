@@ -4338,6 +4338,7 @@ int layout activity_itinerary_view 0x7f0d001d
 int layout activity_main 0x7f0d001e
 int layout activity_main_page 0x7f0d001f
 int layout activity_map_ui 0x7f0d0020
+int layout activity_maps 0x7f0d0088
 int layout activity_maps_main 0x7f0d0021
 int layout activity_profile_page 0x7f0d0022
 int layout activity_sign_in 0x7f0d0023

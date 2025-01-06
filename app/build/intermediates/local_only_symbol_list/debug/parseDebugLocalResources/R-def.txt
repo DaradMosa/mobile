@@ -139,6 +139,7 @@ layout activity_itinerary_view
 layout activity_main
 layout activity_main_page
 layout activity_map_ui
+layout activity_maps
 layout activity_maps_main
 layout activity_profile_page
 layout activity_sign_in

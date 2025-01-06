@@ -96,14 +96,12 @@
         android:layout_width="141dp"
         android:layout_height="43dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="12dp"
+        android:background="@drawable/edit_text_border"
         android:cursorVisible="false"
         android:focusable="false"
         android:hint="Select Time"
-        android:background="@drawable/edit_text_border"
 
         android:padding="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/depcal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dep" />
 
@@ -111,14 +109,16 @@
         android:id="@+id/depcal"
         android:layout_width="201dp"
         android:layout_height="43dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
         android:clickable="false"
         android:cursorVisible="false"
-        android:background="@drawable/edit_text_border"
         android:drawableRight="@drawable/baseline_calendar_month_24"
         android:focusable="false"
         android:hint="Enter Dep Date"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/timePickerEditText"
         app:layout_constraintTop_toBottomOf="@+id/dep" />
 
     <TextView
